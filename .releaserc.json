@@ -1,0 +1,14 @@
+{
+    "branches": [
+        {
+            "name": "master"
+        },
+        {
+            "name": "develop",
+            "prerelease": true
+        }
+    ],
+    "plugins": [
+        "@semantic-release/changelog"
+    ]
+}
