@@ -23,5 +23,9 @@ jobs:
         with:
           node-version: 'lts/*'
 
+      - name: INstall dependencies
+        run: |
+          yarn add -D @semantic-release/changelog
+
       - name: Release
         run: npx semantic-release
