@@ -15,7 +15,13 @@
 - 日本語と英数字の間には半角スペースを入れる。
 
 ## プロジェクト概要
-- 目的: test
+semantic-release テスト用プレイグラウンドリポジトリ。主にリリース自動化ワークフローの検証に使用。
+
+### 技術スタック
+- **言語**: None (Configuration only)
+- **フレームワーク**: semantic-release
+- **主要な依存関係**:
+  - @semantic-release/* plugins
 
 ## コーディング規約
 - フォーマット: 既存設定（ESLint / Prettier / formatter）に従う。
@@ -23,9 +29,8 @@
 - コメント言語: 日本語
 - エラーメッセージ: 英語
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# README を確認してください
 ```
 
 ## 注意事項
@@ -34,3 +39,7 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## リポジトリ固有
+- semantic-release 自動化テスト
+- master/develop ブランチ構成
+- prerelease サポート
+- GitHub Actions 統合

@@ -25,3 +25,7 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
+- semantic-release 自動化テスト
+- master/develop ブランチ構成
+- prerelease サポート
+- GitHub Actions 統合

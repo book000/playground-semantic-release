@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions
 
 ## プロジェクト概要
-- 目的: test
+semantic-release テスト用プレイグラウンドリポジトリ。主にリリース自動化ワークフローの検証に使用。
 
 ## 共通ルール
 - 会話は日本語で行う。
@@ -11,7 +11,8 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## 技術スタック
-- パッケージマネージャー: pnpm 優先（ロックファイルに従う）。
+- 言語: None (Configuration only)
+- パッケージマネージャー: pnpm 優先（ロックファイルに従う）
 
 ## コーディング規約
 - フォーマット: 既存設定（ESLint / Prettier / formatter）に従う。
@@ -22,9 +23,8 @@
 - TypeScript 使用時は strict 前提とし、`skipLibCheck` で回避しない。
 - 関数やインターフェースには docstring（JSDoc など）を記載する。
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# README を確認してください
 ```
 
 ## テスト方針
@@ -35,5 +35,11 @@
 - ログに機密情報を出力しない。
 
 ## ドキュメント更新
+- 実装確定後、同一コミットまたは追加コミットで更新する。
+- README、API ドキュメント、コメント等は常に最新状態を保つ。
 
 ## リポジトリ固有
+- semantic-release 自動化テスト
+- master/develop ブランチ構成
+- prerelease サポート
+- GitHub Actions 統合
